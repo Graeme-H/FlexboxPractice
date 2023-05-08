@@ -8,6 +8,7 @@
     padding: 4px;
     border: 10px solid black;
     gap: 8px;
+    background-color: olive;
     
 }
 
@@ -21,3 +22,28 @@
     color: aliceblue;
    
 }
+
+
+
+.underhead {
+    display:flex;
+    margin: 20px;
+    padding: 0;
+    border:1px solid black; 
+    background-color: olive;
+}
+
+.underhead p {
+    display:flex;
+    margin: 20px;
+    padding: 0;
+    border:1px solid black; 
+}
+
+.welcome {
+    display:flex;
+    margin: 20px;
+    padding: 0;
+     border:1px solid black; 
+}
+
