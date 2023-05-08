@@ -1,5 +1,9 @@
 
-
+p {
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
 
 
 .header {
@@ -7,7 +11,7 @@
     margin: 20px; 
     padding: 4px;
     border: 10px solid black;
-    gap: 8px;
+    gap: 77px;
     background-color: olive;
     
 }
@@ -16,20 +20,23 @@
     display: flex;
     margin: 2px;
     padding: 0;
-    border: 1px solid white;
+    border: 1px;
     font-size: 25px;
-    background-color: black;
+    background-color: olive;
     color: aliceblue;
    
 }
 
-
+a:visited {
+    background-color: olive;
+    color: black;
+}
 
 .underhead {
     display:flex;
     margin: 20px;
     padding: 0;
-    border:1px solid black; 
+    border: 10px solid black; 
     background-color: olive;
 }
 
@@ -37,13 +44,31 @@
     display:flex;
     margin: 20px;
     padding: 0;
-    border:1px solid black; 
+    border: 5px solid black; 
 }
 
 .welcome {
     display:flex;
     margin: 20px;
     padding: 0;
-     border:1px solid black; 
+    border: 5px solid black; 
+    font-size: 28px;
+    color: blanchedalmond;
+    font-style: italic;
+    text-align: center;
+    }
+
+.random {
+    display:flex;
+    margin: 20px;
+    padding: 0;
+    border: 10px solid black; 
+    background-color: olive;
 }
 
+.random p {
+    display:flex;
+    margin: 20px;
+    padding: 0;
+    border: 5px solid black; 
+}
