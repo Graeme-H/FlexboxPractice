@@ -11,19 +11,21 @@ p {
     margin: 20px; 
     padding: 4px;
     border: 10px solid black;
-    gap: 77px;
-    background-color: olive;
+    gap:47px;
+    background-color: antiquewhite;
     
 }
 
 .header li {
     display: flex;
+    flex-grow: 1;
     margin: 2px;
     padding: 0;
     border: 1px;
     font-size: 25px;
-    background-color: olive;
-    color: aliceblue;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 28px;
    
 }
 
@@ -53,7 +55,8 @@ a:visited {
     padding: 0;
     border: 5px solid black; 
     font-size: 28px;
-    color: blanchedalmond;
+    color: black;
+    background-color: antiquewhite;
     font-style: italic;
     text-align: center;
     }
@@ -71,4 +74,5 @@ a:visited {
     margin: 20px;
     padding: 0;
     border: 5px solid black; 
+    background-color: antiquewhite;
 }
